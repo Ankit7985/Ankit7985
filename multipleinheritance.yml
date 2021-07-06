@@ -1,0 +1,22 @@
+class parentclass1
+{
+void show()
+{
+System.out.println("parent class1");
+}
+}
+class Parent Class2
+{
+void show()
+{
+System.out.println("parent class2");
+}
+}
+class SubClass extends Parent class1,Parent class2
+{
+public static void main(String[] args)
+{
+Subclass obj=new SubClass();
+obj.show();
+}
+}
