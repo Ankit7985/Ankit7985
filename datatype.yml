@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class ScannerDemo1
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+int age=sc.nextInt();
+float cgpa=sc.nextFloat();
+String name=sc.nextline();
+System.out.println("Age:"+age);
+System.out.println("cgpa:"+cgpa);
+System.out.println("Name:"+name);
+}
+}
