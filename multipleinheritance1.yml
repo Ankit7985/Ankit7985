@@ -1,0 +1,20 @@
+interface Interface1
+{
+public void show();
+}
+interface interface2
+{
+public void show();
+}
+class Subclass implements Interface1, Interface2
+{
+Public void show()
+{
+System.out.println("A Class can implement more than one interfaces");
+}
+public static void main(String args[])
+{
+Subclass obj=new Subclass();
+obj.show();
+}
+}
