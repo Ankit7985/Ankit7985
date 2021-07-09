@@ -1,0 +1,2 @@
+question- Invoke a function using call() and apply(). Also Spot the difference between them.
+soution-Difference between call() and apply() method: The only difference is call() method takes the arguments separated by comma while apply() method takes the array of arguments.
