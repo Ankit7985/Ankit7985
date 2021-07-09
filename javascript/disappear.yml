@@ -1,0 +1,17 @@
+//Write program using this keyword when we click on button, it should be disappear.
+function open() {
+  x = document.getElementById("demo");
+  x.style.display = "block";
+}
+
+function close() {
+  x = document.getElementById("demo");
+  x.style.display = "none";
+}
+<p id="demo">Click me to change my HTML content (innerHTML).</p>
+
+<p> this shouldnt disappear</p>
+
+<button onclick="open()">open button</button>
+
+<button onclick="close()">close button</button>
