@@ -1,0 +1,4 @@
+//document.getElementById("test_el").innerHTML = "Some text";  //single line comment
+document.getElementById("test_el2").innerHTML = "Some more text";
+ /* document.getElementById("test_el").innerHTML = "some text";  //multiline comment
+   document.getElementById("test_el2").innerHTML = "some more text";  */
