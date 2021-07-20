@@ -1,0 +1,17 @@
+/* 2. Show the javascript validation. When you click submit, the text box doesn't need to
+be empty.*/
+
+solution- 
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
