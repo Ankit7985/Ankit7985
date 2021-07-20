@@ -1,0 +1,7 @@
+/*visibility hidden*/
+
+solution-
+
+h1.hidden {
+  visibility: hidden;
+}
