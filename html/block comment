@@ -1,0 +1,9 @@
+/*block comment*/
+
+
+solution-
+
+
+CSS uses the same "block comment" syntax as the C-like languages - you start a comment with /* , and end it with */ .
+However, CSS is missing the "line comment" syntax that those languages have, 
+where everything from // to the end of the line is commented out.
