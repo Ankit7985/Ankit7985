@@ -1,0 +1,8 @@
+/*handling overflow scroll*/
+
+solution-
+
+div {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
