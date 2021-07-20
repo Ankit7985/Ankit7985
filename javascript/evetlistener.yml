@@ -1,0 +1,7 @@
+/* 1. Add an event listener to a button. When we click on it should display current date
+and time */
+
+Solution-
+document.getElementById("myBtn").addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = "Hello World";
+});
