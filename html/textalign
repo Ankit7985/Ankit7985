@@ -1,0 +1,14 @@
+/*5. Develop a page with different font-styles, font-size, font-family, colors and text-align.*/
+
+
+solution-
+
+<HEAD>
+ <TITLE>How to Carve Wood</TITLE>
+ <STYLE type="text/css">
+  H1.wood {text-align: center}
+ </STYLE>
+<BODY>
+ <H1 class="wood"> How to Carve Wood </H1>
+
+</HEAD>
